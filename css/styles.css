@@ -15,15 +15,15 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--Dark-color);
+  color: var(--Text-color);
   background-color: var(--White-background-color);
 }
 
-a {
+.link {
   text-decoration: none;
   color: inherit;
 }
-ul {
+.list {
   list-style-type: none;
 }
 button {
@@ -36,17 +36,19 @@ button {
 .header-navigation {
 }
 .header-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
+  color: var(--Primary-Brand-color);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.accent {
-  color: var(--Primary-Brand-color);
+.header-logo-span {
+  color: var(--Dark-color);
 }
 .header-menu-list {
+  color: var(--Dark-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -57,8 +59,8 @@ button {
   color: var(--Pressed-state-color);
 }
 .header-address {
-  color: var(--Text-color);
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -73,13 +75,16 @@ footer {
   background-color: var(--Dark-color);
 }
 .footer-logo {
-  font-family: Raleway;
-  color: var(--Light-color);
+  font-family: Raleway, sans-serif;
+  color: var(--Primary-Brand-color);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.footer-logo-span {
+  color: var(--Light-color);
 }
 .footer-text {
   color: var(--Light-color);
@@ -104,6 +109,7 @@ footer {
   letter-spacing: 0.02em;
 }
 .hero-btn {
+  font-family: inherit;
   color: var(--White-background-color);
   font-size: 16px;
   font-weight: 500;
@@ -145,7 +151,6 @@ footer {
   letter-spacing: 0.02em;
 }
 .advantages-item-text {
-  color: var(--Text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -179,6 +184,7 @@ footer {
 .team-list-item {
 }
 .team-subtitle {
+  color: var(--Dark-color);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -186,7 +192,6 @@ footer {
   letter-spacing: 0.02em;
 }
 .team-list-text {
-  color: var(--Text-color);
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
@@ -209,14 +214,11 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--Light-color);
-  border-radius: 4px;
-  border: 1px solid var(--Accent-color);
 }
 .filters-btn:hover,
 .filters-btn:focus {
   color: var(--White-background-color);
   background-color: var(--Pressed-state-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* !------------------PROJECTS SECTION------------------ */
@@ -237,7 +239,6 @@ footer {
   letter-spacing: 0.02em;
 }
 .projects-item-text {
-  color: var(--Text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
