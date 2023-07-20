@@ -54,13 +54,15 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.address {
+  font-style: normal;
+}
 .header-menu-list:hover,
 .header-menu-list:focus {
   color: var(--Pressed-state-color);
 }
 .header-address {
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -71,7 +73,7 @@ button {
 
 /* !------------------FOOTER------------------ */
 
-footer {
+.footer {
   background-color: var(--Dark-color);
 }
 .footer-logo {
@@ -182,6 +184,7 @@ footer {
 .team-list {
 }
 .team-list-item {
+  background: var(--White-background-color);
 }
 .team-subtitle {
   color: var(--Dark-color);
@@ -200,13 +203,14 @@ footer {
 
 /* ?------------------PORTFOLIO-PAGE------------------ */
 
-/* !------------------FILTERS SECTION------------------ */
+/* !------------------PROJECTS SECTION------------------ */
 
-.filters-section {
+.projects-section {
 }
 .filters-list {
 }
 .filters-btn {
+  font-family: inherit;
   color: var(--Primary-Brand-color);
   text-align: center;
   font-size: 16px;
@@ -219,11 +223,6 @@ footer {
 .filters-btn:focus {
   color: var(--White-background-color);
   background-color: var(--Pressed-state-color);
-}
-
-/* !------------------PROJECTS SECTION------------------ */
-
-.projects-section {
 }
 .projects-list {
 }
